@@ -1,0 +1,6 @@
+name: nerdflux
+description: Ein Dart-Konsolenquiz für Filmnerds
+version: 1.0.0
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'

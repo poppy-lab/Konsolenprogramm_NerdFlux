@@ -1,0 +1,122 @@
+[
+  {
+    "zitat": "Ich bin dein Vater.",
+    "kontext": "Ein ikonischer Moment mit Lichtschwert.",
+    "optionen": ["Obi-Wan Kenobi", "Darth Vader", "Yoda"],
+    "richtigeAntwort": "B"
+  },
+  {
+    "zitat": "Bazinga!",
+    "kontext": "Ein Running-Gag in einer Nerd-WG.",
+    "optionen": ["Sheldon Cooper", "Howard Wolowitz", "Raj Koothrappali"],
+    "richtigeAntwort": "A"
+  },
+  {
+    "zitat": "Live long and prosper.",
+    "kontext": "Gruß aus dem Weltall.",
+    "optionen": ["Captain Kirk", "Spock", "Sulu"],
+    "richtigeAntwort": "B"
+  },
+  {
+    "zitat": "Wubba lubba dub dub!",
+    "kontext": "Abgefahrenes Paralleluniversum.",
+    "optionen": ["Morty Smith", "Jerry Smith", "Rick Sanchez"],
+    "richtigeAntwort": "C"
+  },
+  {
+    "zitat": "Ich sehe tote Menschen.",
+    "kontext": "Ein kleiner Junge hat eine Gabe.",
+    "optionen": ["Cole Sear", "Bruce Willis", "Dr. Malcolm Crowe"],
+    "richtigeAntwort": "A"
+  },
+  {
+    "zitat": "To infinity and beyond!",
+    "kontext": "Ein Spruch aus dem Kinderzimmer… und dem Weltall.",
+    "optionen": ["Buzz Lightyear", "Woody", "Wall-E"],
+    "richtigeAntwort": "A"
+  },
+  {
+    "zitat": "Houston, wir haben ein Problem.",
+    "kontext": "Ein dramatischer Moment im Weltall.",
+    "optionen": ["Neil Armstrong", "Jim Lovell", "Tom Hanks"],
+    "richtigeAntwort": "B"
+  },
+  {
+    "zitat": "You shall not pass!",
+    "kontext": "Ein epischer Moment auf einer Brücke.",
+    "optionen": ["Saruman", "Gandalf", "Aragorn"],
+    "richtigeAntwort": "B"
+  },
+  {
+    "zitat": "Warum so ernst?",
+    "kontext": "Ein irrer Blick unter einer Clownsschminke.",
+    "optionen": ["Joker", "Two-Face", "Riddler"],
+    "richtigeAntwort": "A"
+  },
+  {
+    "zitat": "Ich bin Groot.",
+    "kontext": "Ein wortkarger Held aus dem All.",
+    "optionen": ["Rocket", "Groot", "Drax"],
+    "richtigeAntwort": "B"
+  },
+  {
+    "zitat": "Ich bin dein Vater. (11)",
+    "kontext": "Ein ikonischer Moment mit Lichtschwert.",
+    "optionen": ["Obi-Wan Kenobi", "Darth Vader", "Yoda"],
+    "richtigeAntwort": "B"
+  },
+  {
+    "zitat": "Bazinga! (12)",
+    "kontext": "Ein Running-Gag in einer Nerd-WG.",
+    "optionen": ["Sheldon Cooper", "Howard Wolowitz", "Raj Koothrappali"],
+    "richtigeAntwort": "A"
+  },
+  {
+    "zitat": "Live long and prosper. (13)",
+    "kontext": "Gruß aus dem Weltall.",
+    "optionen": ["Captain Kirk", "Spock", "Sulu"],
+    "richtigeAntwort": "B"
+  },
+  {
+    "zitat": "Wubba lubba dub dub! (14)",
+    "kontext": "Abgefahrenes Paralleluniversum.",
+    "optionen": ["Morty Smith", "Jerry Smith", "Rick Sanchez"],
+    "richtigeAntwort": "C"
+  },
+  {
+    "zitat": "Ich sehe tote Menschen. (15)",
+    "kontext": "Ein kleiner Junge hat eine Gabe.",
+    "optionen": ["Cole Sear", "Bruce Willis", "Dr. Malcolm Crowe"],
+    "richtigeAntwort": "A"
+  },
+  {
+    "zitat": "To infinity and beyond! (16)",
+    "kontext": "Ein Spruch aus dem Kinderzimmer… und dem Weltall.",
+    "optionen": ["Buzz Lightyear", "Woody", "Wall-E"],
+    "richtigeAntwort": "A"
+  },
+  {
+    "zitat": "Houston, wir haben ein Problem. (17)",
+    "kontext": "Ein dramatischer Moment im Weltall.",
+    "optionen": ["Neil Armstrong", "Jim Lovell", "Tom Hanks"],
+    "richtigeAntwort": "B"
+  },
+  {
+    "zitat": "You shall not pass! (18)",
+    "kontext": "Ein epischer Moment auf einer Brücke.",
+    "optionen": ["Saruman", "Gandalf", "Aragorn"],
+    "richtigeAntwort": "B"
+  },
+  {
+    "zitat": "Warum so ernst? (19)",
+    "kontext": "Ein irrer Blick unter einer Clownsschminke.",
+    "optionen": ["Joker", "Two-Face", "Riddler"],
+    "richtigeAntwort": "A"
+  },
+  {
+    "zitat": "Ich bin Groot. (20)",
+    "kontext": "Ein wortkarger Held aus dem All.",
+    "optionen": ["Rocket", "Groot", "Drax"],
+    "richtigeAntwort": "B"
+  }
+]
