@@ -4,13 +4,9 @@ import 'dart:convert'; // Für JSON-Verarbeitung
 import 'dart:io'; // Für Dateioperationen & Terminal I/O
 import 'dart:math'; // Für Random-Funktionen und Zufallsauswahl
 
-// Löscht den Terminalbildschirm (Windows/Unix)
+// Löscht den Terminalbildschirm
 void clearScreen() {
-  if (Platform.isWindows) {
-    Process.runSync("cls", [], runInShell: true);
-  } else {
-    Process.runSync("clear", [], runInShell: true);
-  }
+  stdout.write('\u001b[1J');
 }
 
 // Gibt Text mit Tipp-Effekt aus, simuliert einen Terminal-Stil
@@ -39,20 +35,32 @@ Future<void> zeigeBootIntro() async {
   clearScreen();
   await zeigeMitTyping("\u{1F47E} Booting NERDFLUX SYSTEM...", speed: 40);
   await Future.delayed(Duration(milliseconds: 400));
+  print(" "); // Noch eine leere Zeile
 
   // ASCII-Logo
   final logo = [" █   █   █ ", " █   █   █ ", "     █   █ ", "     █   █ "];
-  for (final line in logo) {
-    print(line);
+
+// Textzeilen rechts neben dem Logo
+  final text = [
+    "BATCH 10 Aufgabe",
+    "Projekt 6 – 3.4.6 Erstes Konsolenprogramm"
+  ];
+
+// Kombinierte Ausgabe
+  for (int i = 0; i < logo.length; i++) {
+    final logoLine = logo[i];
+    final textLine = i < text.length ? "  ${text[i]}" : "";
+    print(logoLine + textLine);
     await Future.delayed(Duration(milliseconds: 100));
   }
 
+  print(" "); // Noch eine leere Zeile
   // Begrüßungsrahmen mit Fortschrittsbalken
   final rahmenOben = "╔═════════════════════════════════╗";
   final rahmenUnten = "╚═════════════════════════════════╝";
   final inhalt = [
     "║  \"Welcome to the Quizverse\"     ║",
-    "║     Loading poppy.exe...       ║"
+    "║     Loading poppy.exe...        ║"
   ];
 
   print(rahmenOben);
@@ -73,7 +81,7 @@ Future<void> zeigeBootIntro() async {
 
   print("");
   await Future.delayed(Duration(milliseconds: 300));
-  print("║     Press ENTER to continue   ║");
+  print("║     Press ENTER to continue     ║");
   print(rahmenUnten);
   stdin.readLineSync(); // Warten auf Benutzereingabe
 }
